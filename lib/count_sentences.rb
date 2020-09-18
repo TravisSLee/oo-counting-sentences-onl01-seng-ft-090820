@@ -24,6 +24,7 @@ class String
       else self.exclamation? == TRUE
         self.split("!")
       end
+    end
     self.count
   end
 end
