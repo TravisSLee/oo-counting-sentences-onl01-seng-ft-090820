@@ -15,17 +15,5 @@ class String
   end
 
   def count_sentences
-    self.each do ||
-      if self.sentence? == TRUE
-        self.split(".")
-      elsif self.question? == TRUE
-        self.split("?")
-      elsif self.exclamation? == TRUE
-        self.split("!")
-      else
-        FALSE
-      end
-    end
-    .count
-  end
+    self.split([.?!]).count
 end
