@@ -16,7 +16,7 @@ class String
   end
 
   def count_sentences
-    self.each do |string|
+    string.each do |word|
       if self.sentence? == TRUE
         self.split(".")
       elsif self.question? == TRUE
