@@ -19,9 +19,11 @@ class String
     self.each do |string|
       if self.sentence? == TRUE
         self.split(".")
-      elsif self.question? ==TRUE
+      elsif self.question? == TRUE
         self.split("?")
-    
-    
+      else self.exclamation? == TRUE
+        self.split("!")
+      end
+    self.count
   end
 end
