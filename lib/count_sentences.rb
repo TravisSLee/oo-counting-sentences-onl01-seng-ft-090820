@@ -16,7 +16,6 @@ class String
   end
 
   def count_sentences
-    self.each do |string|
       if self.sentence? == TRUE
         self.split(".")
       elsif self.question? == TRUE
@@ -24,7 +23,6 @@ class String
       else self.exclamation? == TRUE
         self.split("!")
       end
-    end
     self.count
   end
 end
