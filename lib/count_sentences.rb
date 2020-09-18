@@ -23,6 +23,6 @@ class String
       else self.exclamation? == TRUE
         self.split("!")
       end
-    self.count
+    .count
   end
 end
