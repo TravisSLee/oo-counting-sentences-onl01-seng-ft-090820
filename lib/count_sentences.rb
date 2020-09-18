@@ -4,7 +4,7 @@ class String
   attr_accessor :sentence
   
   def sentence?
-    self.end_with?("!")
+    self.end_with?(".")
   end
 
   def question?
