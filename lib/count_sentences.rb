@@ -16,7 +16,5 @@ class String
 
   def count_sentences
     self.split(/[.?!]/)
-    self.map do |x|
-      
   end
 end
