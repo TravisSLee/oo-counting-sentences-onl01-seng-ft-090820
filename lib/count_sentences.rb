@@ -1,7 +1,6 @@
 require 'pry'
 
 class String
-  attr_accessor :sentence
   
   def sentence?
     self.end_with?(".")
@@ -16,7 +15,7 @@ class String
   end
 
   def count_sentences
-    string.each do |word|
+    self.each do ||
       if self.sentence? == TRUE
         self.split(".")
       elsif self.question? == TRUE
